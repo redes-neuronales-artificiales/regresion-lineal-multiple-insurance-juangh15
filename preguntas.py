@@ -82,7 +82,7 @@ def pregunta_03():
     from sklearn.preprocessing import OneHotEncoder
     import numpy as np
 
-    pipeline = ____(
+    pipeline = Pipeline(
         steps=[
             # Paso 1: Construya un column_transformer que aplica OneHotEncoder a las
             # variables categóricas, y no aplica ninguna transformación al resto de
